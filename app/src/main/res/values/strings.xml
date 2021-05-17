@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Friends Fragment</string>
+    <string name="premiere_date">Premiered&#58;</string>
+    <string name="cast_person_uri">More About Person </string>
+    <string name="cast_cha_uri">More About Character</string>
+    <string name="pesrson_cast">PERSON INFO</string>
+    <string name="char_cast">CHARACTER INFO</string>
+    <string name="season_number">Season Number&#58;</string>
+    <string name="season_episode_order">Season Episode Order&#58;</string>
+    <string name="season_premiere_date">Premiere Date&#58;</string>
+    <string name="season_end_date">End Date&#58;</string>
+    <string name="episode_more_button">More About Episode</string>
+    <string name="episode_title">Episode Title&#58;</string>
+    <string name="episode_seadon_number">Season Number&#58;</string>
+    <string name="episode_season_episode_number">Episode Number&#58;</string>
+    <string name="episode_airdate">Episode Air Date&#58;</string>
+    <string name="crew_name">Crew Name&#58;</string>
+    <string name="crew_title">Crew Title&#58;</string>
+    <string name="crew_more_button">More about crew</string>
+    <string name="all">All</string>
+    <string name="about">about</string>
+    <string name="f_r_i_e_n_d_s">F R I E N D S</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

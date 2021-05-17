@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".fragment.OnboardingFragment">
+
+
+    <TableRow
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/show_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="#FFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:backgroundTint="@color/red"
+            android:text="F R I E N D S"/>
+        <Button
+            android:id="@+id/cast_button"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFC107"
+            android:text="Cast"/>
+    </TableRow>
+    <TableRow
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/season_button"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/blue"
+            android:text="Seasons"/>
+        <Button
+            android:id="@+id/episode_button"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/indigo"
+            android:text="Episodes"/>
+    </TableRow>
+    <TableRow
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/image_button"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/violet"
+            android:text="Images"/>
+        <Button
+            android:id="@+id/crew_button"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#009688"
+            android:text="Crew"/>
+    </TableRow>
+
+
+</TableLayout>

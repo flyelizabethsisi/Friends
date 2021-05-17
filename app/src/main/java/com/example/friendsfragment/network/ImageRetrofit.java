@@ -1,0 +1,25 @@
+package com.example.friendsfragment.network;
+
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
+
+public class ImageRetrofit {
+    private static final String TVMAZ_BASE_URL = "http://api.tvmaze.com";
+    private static Retrofit instance;
+
+
+    public ImageRetrofit() {
+    }
+
+    public static Retrofit getImageRetrofit() {
+        if (instance == null) {
+            instance = new Retrofit.Builder()
+                    .baseUrl(TVMAZ_BASE_URL)
+                    .addConverterFactory(GsonConverterFactory.create())
+                    .build();
+        }
+        return instance;
+    }
+}
+
+
